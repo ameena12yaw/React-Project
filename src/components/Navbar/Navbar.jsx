@@ -13,13 +13,15 @@ const Navbar = () => {
             <li>Pricing</li>
             <li>Blog</li>
         </ul>
+            
+        <div className="nav-right">
             <select>
                 <option value="usd">USD</option>
                 <option value="eur">EUR</option>
                 <option value="ghc">GHc</option>
             </select>
             <button>Sign up <img src={arrow_icon} alt="" /></button>
-        <div className="nav-right"></div>
+        </div>
         
     </div>
   )
